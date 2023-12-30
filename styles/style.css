@@ -105,6 +105,7 @@ ol {
 .search-form {
   width: 711px;
   display: flex;
+  padding-top: 16px;
   position: relative;
   gap: 40px;
 }
@@ -216,7 +217,10 @@ ol {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+}
+
+.content__list .content__list-item:not(:first-child) {
+  padding-top: 30px;
 }
 
 .content__card-link {
@@ -288,4 +292,5 @@ ol {
 
 .more-button {
   width: 100%;
+  margin-top: 30px;
 }
