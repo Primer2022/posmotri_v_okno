@@ -132,7 +132,7 @@ ol {
   appearance: none;
 }
 
-.search-form__textfield {
+.search-form__textfield:focus {
   outline: 0;
 }
 
@@ -233,6 +233,10 @@ ol {
   background-color: #545050;
 }
 
+.content__card-link:focus {
+  outline: none;
+}
+
 .content__card-link_current {
   background-color: #545050;
 }
@@ -264,7 +268,7 @@ ol {
 
 .content__video-card-title {
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald, Arial, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
